@@ -1,3 +1,6 @@
+from Clases.persona import Persona
+from Clases.deportista import Deportista
+
 class Futbolista(Persona, Deportista):
     listaFutbolistas = []  # Atributo de clase para almacenar todos los futbolistas
 
