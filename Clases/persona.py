@@ -1,11 +1,11 @@
 class Persona:
     def __init__(self, nombre, edad, altura, sexo):
-        self.__nombre = nombre  # Atributo privado
-        self.__edad = edad      # Atributo privado
-        self.__altura = altura  # Atributo privado
-        self.__sexo = sexo      # Atributo privado
+        self.__nombre = nombre
+        self.__edad = edad
+        self.__altura = altura
+        self.__sexo = sexo
 
-    # Métodos get para obtener los valores de los atributos
+    # Métodos get
     def get_nombre(self):
         return self.__nombre
     
@@ -18,7 +18,7 @@ class Persona:
     def get_sexo(self):
         return self.__sexo
     
-    # Métodos set para dar valores a los atributos
+    # Métodos set
     def set_nombre(self, nombre):
         self.__nombre = nombre
     

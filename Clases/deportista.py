@@ -1,16 +1,16 @@
 class Deportista:
     def __init__(self, deporte, añosPracticando):
-        self.__deporte = deporte               # Atributo privado
-        self.__añosPracticando = añosPracticando  # Atributo privado
+        self.__deporte = deporte
+        self.__añosPracticando = añosPracticando
 
-    # Métodos get para obtener los valores de los atributos
+    # Métodos get
     def get_deporte(self):
         return self.__deporte
     
     def get_añosPracticando(self):
         return self.__añosPracticando
     
-    # Métodos set para dar valores a los atributos
+    # Métodos set
     def set_deporte(self, deporte):
         self.__deporte = deporte
     
